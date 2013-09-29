@@ -32,4 +32,22 @@ void Chassis::InitDefaultCommand() {
 
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
+void Chassis::Stop() {
+	this->robotDrive21->ArcadeDrive(0.0, 0.0);
+}
 
+void Chassis::ArcadeDrive(Joystick *stick) {
+	this->robotDrive21->ArcadeDrive(stick);
+}
+
+SpeedController *Chassis::GetLeftDriveTalon() {
+	return this->leftDriveTalon;
+}
+
+SpeedController *Chassis::GetRightDriveTalon() {
+	return this->rightDriveTalon;
+}
+
+RobotDrive *Chassis::GetRobotDrive() {
+	return this->robotDrive21;
+}
