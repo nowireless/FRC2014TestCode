@@ -1,7 +1,7 @@
  \
  CommandBasedRobotTemplate/Debug/Objects/2013Robot/Subsystems/SensorSubsystem.o:  \
- C:/windriver/workspace/2013Robot/Subsystems/SensorSubsystem.cpp \
-  C:/windriver/workspace/2013Robot/Subsystems/SensorSubsystem.h \
+ C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/SensorSubsystem.cpp \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/SensorSubsystem.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/ErrorBase.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/Base.h \
@@ -384,10 +384,10 @@
   C:/windriver/vxworks-6.3/target/h/WPILib/Vision/HSLImage.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/Vision/ColorImage.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/WPIErrors.h \
-  C:/windriver/workspace/2013Robot/Subsystems/../Robotmap.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Robotmap.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h
 
-C:/windriver/workspace/2013Robot/Subsystems/SensorSubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/SensorSubsystem.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
@@ -1153,6 +1153,6 @@ C:/windriver/vxworks-6.3/target/h/WPILib/Vision/ColorImage.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/WPIErrors.h:
 
-C:/windriver/workspace/2013Robot/Subsystems/../Robotmap.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Robotmap.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h:

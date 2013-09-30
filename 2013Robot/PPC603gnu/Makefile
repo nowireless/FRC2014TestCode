@@ -125,6 +125,10 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/DeployPanComman
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
+CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/DriveWithJoystickCommand.o : $(PRJ_ROOT_DIR)/Commands/DriveWithJoystickCommand.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/FrisbeePanSuperVisorCommand.o : $(PRJ_ROOT_DIR)/Commands/FrisbeePanSuperVisorCommand.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
@@ -231,6 +235,7 @@ CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterTiltSu
 
 OBJECTS_CommandBasedRobotTemplate = CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/AutonomousCommand.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/DeployPanCommand.o \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/DriveWithJoystickCommand.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/FrisbeePanSuperVisorCommand.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/KickerSupervisorCommand.o \
 	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/LEDSupervisorCommand.o \
@@ -306,6 +311,10 @@ CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/A
 
 
 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/DeployPanCommand.o : $(PRJ_ROOT_DIR)/Commands/DeployPanCommand.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/DriveWithJoystickCommand.o : $(PRJ_ROOT_DIR)/Commands/DriveWithJoystickCommand.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
@@ -415,6 +424,7 @@ CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems
 
 OBJECTS_CommandBassedRobotTemplate_partialImage = CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/AutonomousCommand.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/DeployPanCommand.o \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/DriveWithJoystickCommand.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/FrisbeePanSuperVisorCommand.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/KickerSupervisorCommand.o \
 	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/LEDSupervisorCommand.o \
@@ -454,25 +464,26 @@ CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/CommandBassedRobotTemplate_p
 
 force : 
 
-DEP_FILES := CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/AutonomousCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/DeployPanCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/FrisbeePanSuperVisorCommand.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/KickerSupervisorCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/LEDSupervisorCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/MovePBToBottomCommand.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/MovePBToTopCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/PanAtFeederStationCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/PizzaBoxSupervisorCommand.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/ShootAndIndexOneFrisbeeCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterAndIndexAllFrisbeesCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterSupervisiorCommand.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterTiltSupervisorCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/StowPanCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/TiltShooterTiltDownCommand.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/TiltShooterUpCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/OI.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Robot.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/RobotMap.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/Chassis.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/FrisbeePanSubsystem.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/KickerSubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/LEDSubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/LcdDisplaySubsystem.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/PizzaBoxSubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/SensorSubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterSubsystem.d \
-	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterTiltSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/AutonomousCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/DeployPanCommand.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/FrisbeePanSuperVisorCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/KickerSupervisorCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/LEDSupervisorCommand.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/MovePBToBottomCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/MovePBToTopCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/PanAtFeederStationCommand.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/PizzaBoxSupervisorCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/ShootAndIndexOneFrisbeeCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterAndIndexAllFrisbeesCommand.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterSupervisiorCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterTiltSupervisorCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/StowPanCommand.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/TiltShooterTiltDownCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/TiltShooterUpCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/OI.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Robot.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/RobotMap.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/Chassis.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/FrisbeePanSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/KickerSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/LEDSubsystem.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/LcdDisplaySubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/PizzaBoxSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/SensorSubsystem.d \
-	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterTiltSubsystem.d
+DEP_FILES := CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/AutonomousCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/DeployPanCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/DriveWithJoystickCommand.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/FrisbeePanSuperVisorCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/KickerSupervisorCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/LEDSupervisorCommand.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/MovePBToBottomCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/MovePBToTopCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/PanAtFeederStationCommand.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/PizzaBoxSupervisorCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/ShootAndIndexOneFrisbeeCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterAndIndexAllFrisbeesCommand.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterSupervisiorCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterTiltSupervisorCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/StowPanCommand.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/TiltShooterTiltDownCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Commands/TiltShooterUpCommand.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/OI.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Robot.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/RobotMap.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/Chassis.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/FrisbeePanSubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/KickerSubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/LEDSubsystem.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/LcdDisplaySubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/PizzaBoxSubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/SensorSubsystem.d \
+	 CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterSubsystem.d CommandBasedRobotTemplate/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterTiltSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/AutonomousCommand.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/DeployPanCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/DriveWithJoystickCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/FrisbeePanSuperVisorCommand.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/KickerSupervisorCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/LEDSupervisorCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/MovePBToBottomCommand.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/MovePBToTopCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/PanAtFeederStationCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/PizzaBoxSupervisorCommand.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/ShootAndIndexOneFrisbeeCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterAndIndexAllFrisbeesCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterSupervisiorCommand.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/ShooterTiltSupervisorCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/StowPanCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/TiltShooterTiltDownCommand.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Commands/TiltShooterUpCommand.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/OI.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Robot.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/RobotMap.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/Chassis.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/FrisbeePanSubsystem.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/KickerSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/LEDSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/LcdDisplaySubsystem.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/PizzaBoxSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/SensorSubsystem.d CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterSubsystem.d \
+	 CommandBassedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2013Robot/Subsystems/ShooterTiltSubsystem.d
 -include $(DEP_FILES)
 
 

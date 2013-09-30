@@ -384,7 +384,30 @@ CommandBasedRobotTemplate/Debug/Objects/2013Robot/Subsystems/Chassis.o:  \
   C:/windriver/vxworks-6.3/target/h/WPILib/Vision/ColorImage.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/WPIErrors.h \
   C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Robotmap.h \
-  C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h
+  C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/DriveWithJoystickCommand.h \
+  C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Robot.h \
+  C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h \
+  C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Command.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../RobotMap.h \
+  C:/windriver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Commands/AutonomousCommand.h \
+  C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Commands/../Robot.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/Chassis.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/FrisbeePanSubsystem.h \
+  C:/windriver/vxworks-6.3/target/h/WPILib/Commands/PIDSubsystem.h \
+  C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/KickerSubsystem.h \
+  C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/LEDSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/LcdDisplaySubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/PizzaBoxSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/SensorSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/ShooterSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/ShooterTiltSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../OI.h
 
 C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/Chassis.h:
 
@@ -1155,3 +1178,49 @@ C:/windriver/vxworks-6.3/target/h/WPILib/WPIErrors.h:
 C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Robotmap.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/DriveWithJoystickCommand.h:
+
+C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Robot.h:
+
+C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h:
+
+C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Command.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../RobotMap.h:
+
+C:/windriver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Commands/AutonomousCommand.h:
+
+C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Commands/../Robot.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/Chassis.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/FrisbeePanSubsystem.h:
+
+C:/windriver/vxworks-6.3/target/h/WPILib/Commands/PIDSubsystem.h:
+
+C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/KickerSubsystem.h:
+
+C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/LEDSubsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/LcdDisplaySubsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/PizzaBoxSubsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/SensorSubsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/ShooterSubsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../Subsystems/ShooterTiltSubsystem.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Subsystems/../Commands/../OI.h:

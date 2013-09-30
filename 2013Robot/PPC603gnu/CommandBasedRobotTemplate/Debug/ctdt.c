@@ -11,6 +11,8 @@ void _GLOBAL__I__ZN17AutonomousCommandC2Ev();
 
 void _GLOBAL__I__ZN16DeployPanCommandC2Ev();
 
+void _GLOBAL__I__ZN24DriveWithJoystickCommandC2Ev();
+
 void _GLOBAL__I__ZN27FrisbeePanSuperVisorCommandC2Ev();
 
 void _GLOBAL__I__ZN23KickerSupervisorCommandC2Ev();
@@ -120,6 +122,7 @@ void (*_ctors[])() =
     {
     _GLOBAL__I__ZN17AutonomousCommandC2Ev,
     _GLOBAL__I__ZN16DeployPanCommandC2Ev,
+    _GLOBAL__I__ZN24DriveWithJoystickCommandC2Ev,
     _GLOBAL__I__ZN27FrisbeePanSuperVisorCommandC2Ev,
     _GLOBAL__I__ZN23KickerSupervisorCommandC2Ev,
     _GLOBAL__I__ZN20LEDSupervisorCommandC2Ev,
@@ -178,6 +181,8 @@ void (*_ctors[])() =
 void _GLOBAL__D__ZN17AutonomousCommandC2Ev();
 
 void _GLOBAL__D__ZN16DeployPanCommandC2Ev();
+
+void _GLOBAL__D__ZN24DriveWithJoystickCommandC2Ev();
 
 void _GLOBAL__D__ZN27FrisbeePanSuperVisorCommandC2Ev();
 
@@ -278,6 +283,7 @@ void (*_dtors[])() =
     {
     _GLOBAL__D__ZN17AutonomousCommandC2Ev,
     _GLOBAL__D__ZN16DeployPanCommandC2Ev,
+    _GLOBAL__D__ZN24DriveWithJoystickCommandC2Ev,
     _GLOBAL__D__ZN27FrisbeePanSuperVisorCommandC2Ev,
     _GLOBAL__D__ZN23KickerSupervisorCommandC2Ev,
     _GLOBAL__D__ZN20LEDSupervisorCommandC2Ev,

@@ -1,6 +1,6 @@
 CommandBassedRobotTemplate_partialImage/Debug/Objects/2013Robot/OI.o:  \
- C:/windriver/workspace/2013Robot/OI.cpp \
-  C:/windriver/workspace/2013Robot/OI.h \
+ C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/OI.cpp \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/OI.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/windriver/vxworks-6.3/target/h/string.h \
   C:/windriver/vxworks-6.3/target/h/types/vxANSI.h \
@@ -385,44 +385,45 @@ CommandBassedRobotTemplate_partialImage/Debug/Objects/2013Robot/OI.o:  \
   C:/windriver/vxworks-6.3/target/h/WPILib/Vision/ColorImage.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/WPIErrors.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/SmartDashboard/SmartDashboard.h \
-  C:/windriver/workspace/2013Robot/Commands/AutonomousCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/AutonomousCommand.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../Robot.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Robot.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Command.h \
-  C:/windriver/workspace/2013Robot/Commands/../RobotMap.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../RobotMap.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h \
-  C:/windriver/workspace/2013Robot/Commands/../Commands/AutonomousCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/Chassis.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Commands/AutonomousCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/Chassis.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/FrisbeePanSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/FrisbeePanSubsystem.h \
   C:/windriver/vxworks-6.3/target/h/WPILib/Commands/PIDSubsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/KickerSubsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/LEDSubsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/LcdDisplaySubsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/PizzaBoxSubsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/SensorSubsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/ShooterSubsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../Subsystems/ShooterTiltSubsystem.h \
-  C:/windriver/workspace/2013Robot/Commands/../OI.h \
-  C:/windriver/workspace/2013Robot/Commands/DeployPanCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/FrisbeePanSuperVisorCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/KickerSupervisorCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/LEDSupervisorCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/MovePBToBottomCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/MovePBToTopCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/PanAtFeederStationCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/PizzaBoxSupervisorCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/ShootAndIndexOneFrisbeeCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/ShooterAndIndexAllFrisbeesCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/ShooterSupervisiorCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/ShooterTiltSupervisorCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/StowPanCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/TiltShooterTiltDownCommand.h \
-  C:/windriver/workspace/2013Robot/Commands/TiltShooterUpCommand.h
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/KickerSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/LEDSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/LcdDisplaySubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/PizzaBoxSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/SensorSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/ShooterSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/ShooterTiltSubsystem.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../OI.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/DeployPanCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/DriveWithJoystickCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/FrisbeePanSuperVisorCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/KickerSupervisorCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/LEDSupervisorCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/MovePBToBottomCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/MovePBToTopCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/PanAtFeederStationCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/PizzaBoxSupervisorCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/ShootAndIndexOneFrisbeeCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/ShooterAndIndexAllFrisbeesCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/ShooterSupervisiorCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/ShooterTiltSupervisorCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/StowPanCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/TiltShooterTiltDownCommand.h \
+  C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/TiltShooterUpCommand.h
 
-C:/windriver/workspace/2013Robot/OI.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/OI.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
@@ -1192,74 +1193,76 @@ C:/windriver/vxworks-6.3/target/h/WPILib/WPIErrors.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/SmartDashboard/SmartDashboard.h:
 
-C:/windriver/workspace/2013Robot/Commands/AutonomousCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/AutonomousCommand.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Robot.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Robot.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Command.h:
 
-C:/windriver/workspace/2013Robot/Commands/../RobotMap.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../RobotMap.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/LiveWindow/LiveWindow.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Commands/AutonomousCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Commands/AutonomousCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/Chassis.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/Chassis.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/FrisbeePanSubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/FrisbeePanSubsystem.h:
 
 C:/windriver/vxworks-6.3/target/h/WPILib/Commands/PIDSubsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/KickerSubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/KickerSubsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/LEDSubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/LEDSubsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/LcdDisplaySubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/LcdDisplaySubsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/PizzaBoxSubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/PizzaBoxSubsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/SensorSubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/SensorSubsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/ShooterSubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/ShooterSubsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../Subsystems/ShooterTiltSubsystem.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../Subsystems/ShooterTiltSubsystem.h:
 
-C:/windriver/workspace/2013Robot/Commands/../OI.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/../OI.h:
 
-C:/windriver/workspace/2013Robot/Commands/DeployPanCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/DeployPanCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/FrisbeePanSuperVisorCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/DriveWithJoystickCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/KickerSupervisorCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/FrisbeePanSuperVisorCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/LEDSupervisorCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/KickerSupervisorCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/MovePBToBottomCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/LEDSupervisorCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/MovePBToTopCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/MovePBToBottomCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/PanAtFeederStationCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/MovePBToTopCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/PizzaBoxSupervisorCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/PanAtFeederStationCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/ShootAndIndexOneFrisbeeCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/PizzaBoxSupervisorCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/ShooterAndIndexAllFrisbeesCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/ShootAndIndexOneFrisbeeCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/ShooterSupervisiorCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/ShooterAndIndexAllFrisbeesCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/ShooterTiltSupervisorCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/ShooterSupervisiorCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/StowPanCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/ShooterTiltSupervisorCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/TiltShooterTiltDownCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/StowPanCommand.h:
 
-C:/windriver/workspace/2013Robot/Commands/TiltShooterUpCommand.h:
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/TiltShooterTiltDownCommand.h:
+
+C:/Users/FRC2014/Documents/workspace/FRC2014TestCode/2013Robot/Commands/TiltShooterUpCommand.h:
